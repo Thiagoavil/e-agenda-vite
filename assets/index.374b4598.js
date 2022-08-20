@@ -1,1 +1,0 @@
-var s=Object.defineProperty;var a=(t,r,n)=>r in t?s(t,r,{enumerable:!0,configurable:!0,writable:!0,value:n}):t[r]=n;var o=(t,r,n)=>(a(t,typeof r!="symbol"?r+"":r,n),n);import"./modulepreload-polyfill.c7c6310f.js";/* empty css              */class e{constructor(){o(this,"btnCadastrar");this.configurarElementos()}configurarElementos(){}}new e;
