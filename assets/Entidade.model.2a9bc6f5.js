@@ -1,0 +1,1 @@
+var a=Object.defineProperty;var n=(r,t,o)=>t in r?a(r,t,{enumerable:!0,configurable:!0,writable:!0,value:o}):r[t]=o;var s=(r,t,o)=>(n(r,typeof t!="symbol"?t+"":t,o),o);class d{gerarNovoId(){const t=Date.now().toString(36),o=Math.random().toString(36).substring(2,8);return`${t}-${o}`}}class i{constructor(){s(this,"id");this.id=new d().gerarNovoId()}}export{i as E};
